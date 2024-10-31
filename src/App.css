@@ -7,7 +7,7 @@ src: local('IRANSansWeb'),url(./fonts/irsans_p30download.com.ttf) format('truety
 body{
   font-family: IRANSansWeb;
   background-color:#2C5149;
-  color: #fff;
+
 }
 .container1{
 

@@ -83,37 +83,20 @@ return  item.Category=== "barger"
 
 
 
-    <div
-    className="font-bold w-[250px]   p-5 flex flex-col rounded-2xl gap-2 shadow-xl
- ">
+    <div className="menu-item">
     <img
-       src="https://fastfood-dashboard.netlify.app/img/chicken/deluxe-2.png"
-       alt=""
-       className="w-auto h-[130px]  hover:scale-110 cursor-grab transition-all duration-500 ease-in-out "
+      src="https://raw.githubusercontent.com/programmercloud/foodlover/main/img/menu-1.jpg"
+      alt=""
     />
-    <div className=" text-sm  flex flex-col  items-end gap-4 ">
-       <h2 className=' text-black '>{item.title}</h2>
-     <div dir='rtl' className=' flex  '>
-     <span   className="text-yellow   text-red-600 ">  {item.price} </span>
-     <span> ریال</span>
-      </div>
+    <div className="title">Food Restaurant | Chineese &amp; Thai</div>
+    <div className="location">Lahore, Pakistan</div>
+    <div className="order flex">
+      <div className="price">$25.00</div>
+      <a href="#" className="btn btn-menu">
+        Order Now
+      </a>
     </div>
-
-    <div className="flex justify-between mt-4 ">
-       <span className="flex items-center justify-center">
-         
-       </span>
-
-       {/* Add to Cart */}
-       <button
-          onClick={() => 
-             dispatch(addToCart(item))
-          }
-          className="p-1 text-sm text-white rounded-lg bg-yellow hover:text-black">
-          Add to cart
-       </button>
-    </div>
- </div>
+  </div>
 
   )
 })}

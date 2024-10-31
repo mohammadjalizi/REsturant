@@ -1,8 +1,66 @@
-.home{
-
-
-
-    background-color: #1c996a;
-
+#menu{
+    background-color: whitesmoke;
 }
 
+.category {
+    list-style: none;
+    text-align: center;
+    margin: 20px 0 40px 0;
+}
+
+.category li {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.category li.active {
+    color: deeppink;
+}
+
+.restaurant-menu {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 6px;
+    row-gap: 40px;
+}
+
+.menu-item {
+    width: 260px;
+    margin: 0 auto;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+}
+
+.menu-item img {
+    width: 100%;
+}
+
+.order {
+    justify-content: space-between;
+}
+
+.btn-menu {
+    padding: 6px 10px;
+    font-size: 16px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid deeppink;
+    color: deeppink;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 8px 0;
+}
+
+.location {
+    font-size: 18px;
+    font-weight: 500;
+}
