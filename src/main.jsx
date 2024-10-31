@@ -13,7 +13,7 @@ import Home from './components/home/Home.jsx'
 
 const router = createBrowserRouter([
   {
-    path: "/app",
+    path: "/",
     element: <App/>,
   },
   {
@@ -21,7 +21,7 @@ const router = createBrowserRouter([
     element: <Cart/>,
   },
   {
-    path: "/",
+    path: "/app",
     element: <Home/>,
   },
 ]);
