@@ -1,0 +1,13 @@
+.btn{
+
+    border: 1px solid tomato;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn:hover{
+
+    background-color: #fff5f2;
+    color: black;
+}

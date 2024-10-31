@@ -1,0 +1,18 @@
+@font-face{
+
+  font-family:"IRANSansWeb";
+src: local('IRANSansWeb'),url(./fonts/irsans_p30download.com.ttf) format('truetype');
+}
+
+body{
+  font-family: IRANSansWeb;
+  background-color:#2C5149;
+  color: #fff;
+}
+.container1{
+
+  /* border: 2px solid rgba(63, 63, 70, 0.4); */
+
+
+  /* padding: 0  4.8rem; */
+}
