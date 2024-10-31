@@ -87,7 +87,7 @@ return  item.Category=== "barger"
     className="font-bold w-[250px]   p-5 flex flex-col rounded-2xl gap-2 shadow-xl
  ">
     <img
-       src={item.imgpath}
+       src="https://fastfood-dashboard.netlify.app/img/chicken/deluxe-2.png"
        alt=""
        className="w-auto h-[130px]  hover:scale-110 cursor-grab transition-all duration-500 ease-in-out "
     />
